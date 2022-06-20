@@ -1,0 +1,27 @@
+.btn {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: $color-primary;
+    background-color: $color-light-grey-background;
+    padding: 1rem;
+    border-radius: .3rem;
+  }
+  &:hover {
+    outline: $color-grey-outline solid 2px;
+  }
+}
+
+.btn--blue {
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: white;
+    background-color: $color-sign-in;
+    padding: 1rem 2.8rem;
+    border-radius: .5rem;
+  }
+  &:hover {
+    outline: $color-grey-outline solid 2px;
+  }
+}

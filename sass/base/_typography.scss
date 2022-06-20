@@ -1,0 +1,24 @@
+body {
+  font-family: 'product-sans-regular';
+  color: $color-primary;
+}
+
+.header, .footer {
+  font-size: $default-font-size;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  font-size: 1.5rem;
+
+  &__title {
+    font-size: 9rem;
+  }
+}

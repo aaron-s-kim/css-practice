@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 30px;
+
+  .header__left, .header__right {
+    display: flex;
+    flex-direction: row;
+    
+    li:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}
+
